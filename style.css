@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 50px;
+}
+#titleid{
+    margin-top: 5%;
+}
+.titlename{
+    color: orange;
+}
+.titlesec{
+}
+.titlediv{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    margin-left: 5%;
+    padding: 2%;
+}
+.titlediv img{
+    width: 70%;
+}
