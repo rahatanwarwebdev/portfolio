@@ -3,6 +3,7 @@ body{
     margin: 0%;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 .title{
     font-size: 50px;
@@ -55,5 +56,56 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     margin: 1% 0 0 0;
+    padding: 4% 0 0 0;
     
+}
+.experience{
+    height: 600px;
+    background-image: url(/Backgorund/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exptitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.newexp{
+    margin-top: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    padding: 2%;
+    text-align: justify;
+}
+#exp1{
+    margin-left: 4%;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    transition: transform .5s;
+
+}
+
+#exp1:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+#exp2{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    transition: transform .5s;
+}
+#exp2:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
+.footertext{
+    text-align: center;
+    font-size: 20px;
 }
