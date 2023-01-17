@@ -16,6 +16,9 @@ body{
     background-repeat: no-repeat;
     
 }
+.titlesec p{
+    font-size: 18px;
+}
 .titlediv{
     float: left;
     width: 40%;
