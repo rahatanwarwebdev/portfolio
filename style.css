@@ -14,6 +14,7 @@ body{
     height: 600px;
     background-image: url(/Backgorund/top-banner.png);
     background-repeat: no-repeat;
+    
 }
 .titlediv{
     float: left;
@@ -24,10 +25,10 @@ body{
  
 }
 .imagetag{
-    width: 75%;
+    width: 80%;
 }
 .hirebtn{
-    width: 100px;
+    width: 150px;
     height: 50px;
     background: orange;
     transition: width 1s;
@@ -44,4 +45,12 @@ body{
 .hirebtn a{
     text-decoration: none;
     color: black;
+}
+
+#secondsec{
+    background-image: url(/Backgorund/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 1% 0 0 0;
+    
 }
