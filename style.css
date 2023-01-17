@@ -13,7 +13,7 @@ body{
 }
 .titlesec{
     height: 600px;
-    background-image: url(/Backgorund/top-banner.png);
+    background-image: url(/backgorund/top-banner.png);
     background-repeat: no-repeat;
     
 }
@@ -52,7 +52,7 @@ body{
 }
 
 #secondsec{
-    background-image: url(/Backgorund/dream-bg.png);
+    background-image: url(/backgorund/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     margin: 1% 0 0 0;
@@ -61,7 +61,7 @@ body{
 }
 .experience{
     height: 600px;
-    background-image: url(/Backgorund/exp-bg.png);
+    background-image: url(/backgorund/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
