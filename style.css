@@ -1,26 +1,47 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
 }
 .title{
     font-size: 50px;
-}
-#titleid{
-    margin-top: 5%;
 }
 .titlename{
     color: orange;
 }
 .titlesec{
+    height: 600px;
+    background-image: url(/Backgorund/top-banner.png);
+    background-repeat: no-repeat;
 }
 .titlediv{
     float: left;
     width: 40%;
     text-align: justify;
     margin-left: 5%;
-    padding: 2%;
+    padding-left: 2%;
+ 
 }
-.titlediv img{
-    width: 70%;
+.imagetag{
+    width: 75%;
+}
+.hirebtn{
+    width: 100px;
+    height: 50px;
+    background: orange;
+    transition: width 1s;
+    border-radius: 10px 2px 10px 2px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5%;
+    font-weight: 700;
+}
+.hirebtn:hover{
+    width: 300px;
+    background: red;
+}
+.hirebtn a{
+    text-decoration: none;
+    color: black;
 }
